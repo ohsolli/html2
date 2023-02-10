@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(./img/14349652164844\ \(1\).jpg);">
+    <a href="#링크"> 링크 위치로 이동 </a>
+    <h1 style="color:rgb(255, 255, 255)"> <a name="style"></a> 속성확인</h1>
+    <p style="color:rgb(255, 255, 255)"> 다크블루 색상임. 멋있죠? </p>
+    <p style="color:rgb(255, 230, 230)"> 빨강 빨강 노랑 노랑 </p>
+    <p style="color: #e1fbff;"> 16진수로 표현한 컬러 </p>
+    <p style="background-color: rgb(255, 228, 228);"> 배경색 추가! </p>
+    <p style="color: green; background-color: rgb(203, 223, 174);"> 변경함 </p> 
+    <a href="https://images.pexels.com/photos/414268/pexels-photo-414268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">바다 이미지 원본 보기</a>
+    <a href="./HTML 텍스트.html" target="_blank"> html 텍스트 파일~ </a>
+    <a href="./ㅇㅇㅇㅇㅇㅇ"> 방문하지 않은 링크 </a>
+    <a href="#bookmark">
+    <h1 style="color:rgb(255, 255, 255)"> <a name="링크"></a>링크</h1>
+    <a href="#style"> 스타일로 이동한다. </a>
+    <p>
+        a 태그를 통해서 책갈피를 만들 수 있다. <br>
+        클릭할 링크 : href="" 속성을 가짐 <br>
+        이동되는 위치의 링크 : name="" 속성을 가짐 <br>
+    </p>
+    <hr>
+    <img src="./img/back 바다.jpeg" alt="이미지임" width="500">
+    <!-- img 태그는 파일의 위치를 적어서 불러온다. 
+    파일의 위치: ./ > 현재 폴더위치에서 찾기 
+    현재 폴더 위치: 지금 작성하고 있는 파일이 있는 있는 폴더 -->
+    <!-- 이렇게 링크를 통해 외부의 웹사이트나 같은 위치 또는 폴더에 있는 파일을 연결 할 수 있다~! -->
+    <h1>리스트</h1>
+    <!-- 순서가 없는 리스트란다. 각각의 리스트틑 li로 표현하렴. -->
+    <ul>
+        <li> <b>닭갈비</b></li>
+        <li> <b>연어장</b> </li>
+        <li> <b>먹고 싶다.. 내일 온대</b> </li>
+    </ul>
+    <h1 > 닭갈비 에어프라이어로 굽는 법 </h1>
+    <ol>
+        <li> <b> 닭갈비를 180도로 30분 정도 구워주는데, </b> </li>
+        <li> <b> 겹치지 않게 올려놓고, 앞 뒤로 구워야 함. </b> </li>
+        <li> <b> 대충 15분씩? 탈 수도 있으니 중간 중간 보기. </b> </li>
+    </ol>
+    <dl>
+        <!-- 오 이건 뭐지? dt를 통해서 정의한다고 함. -->
+        <dt> 뭐지? </dt>
+        <!-- dt 에 제목을 적고, dd 에 정의에 대한 내용을 전달하면 됨. -->
+        <dd> 매운김치에 중독되었다. </dd>
+        <dt> 링크 </dt>
+        <dd> 하이퍼링크를 통해 다른 페이지로 이동할 수 있다. </dd>
+    </dl>
+    <hr>
+    <h1>테이블 표</h1>
+    <table style="border: solid 1px white;">
+        <tr style="border: solid 1px white;">
+            <th colspan="2" style="border: solid 1px white;">제목</th>
+        </tr>
+        <tr>
+            <td style="border: solid 1px white;" rowspan="2"
+            >내용이 들어갑니다.</td>
+            <td>두번째 내용입니다.</td>
+        </tr>
+        <tr>
+            <td>세번째 내용입니다.</td>
+        </tr>
+    </table>
+    <p>
+        테이블태그는 tr로 열을 작성하고, td로 안에 셀을 만든다. <br> 
+        tr: table row(열), td: table data(셀) <br>
+        th: table header(h1 태그와 유사함) <br>
+        colspan: 오른쪽에 있는 셀을 확장(합치는 개념) <br>
+        rowspan: 아래쪽에 있는 셀을 확장 <br>
+    </p>
+    <hr>
+    <table style="border: solid 1px white;">
+        <tr>
+            <th colspan="3" style="border: solid 1px white">A반</th>
+        </tr>
+        <tr>
+            <td style="border: solid 1px white;">에밀리</td>
+            <td style="border: solid 1px white;">토비</td>
+            <td style="border: solid 1px white;">제임스</td>
+        </tr>
+        <tr>
+            <td style="border: solid 1px white;">16</td>
+            <td style="border: solid 1px white;">14</td>
+            <td style="border: solid 1px white;">10</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th style="background-color: rgb(208, 253, 253);">반</th>
+            <th colspan="3" style="background-color: rgb(214, 248, 248);">A반</th>
+        </tr>
+        <tr>
+            <td rowspan="2" style="background-color: rgb(232, 255, 255);">학생</td>
+            <td style="background-color: rgb(232, 255, 255);">에밀리</td>
+            <td style="background-color: rgb(232, 255, 255);">토비</td>
+            <td style="background-color: rgb(232, 255, 255);">제임스</td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(232, 255, 255);">16</td>
+            <td style="background-color: rgb(232, 255, 255);">14</td>
+            <td style="background-color: rgb(232, 255, 255);">10</td>
+        </tr>
+    </table>
+</body>
+</html>
